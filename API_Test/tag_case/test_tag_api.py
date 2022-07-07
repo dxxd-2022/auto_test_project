@@ -1,8 +1,5 @@
-import json
-import threading
-import time
+from auto_test_project.API_Test.case.tag_api import Tag
 
-from API_Test.tag_api import Tag
 
 class TestTag:
     def setup_class(self):

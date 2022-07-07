@@ -1,7 +1,6 @@
-import pytest
 import requests
 
-from API_Test.base_api import BaseApi
+from auto_test_project.API_Test.case.base_api import BaseApi
 
 
 class Tag(BaseApi):#标签的增删改查接口
